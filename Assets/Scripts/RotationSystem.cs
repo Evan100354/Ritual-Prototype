@@ -44,12 +44,12 @@ public class RotationSystem : MonoBehaviour
     private void RotateObjectLeft()
     {
         //Pipe.Rotate(Vector3.left * rotationSpeed);
-        selectedObject.transform.rotation *= Quaternion.Euler(15, 0, 0);
+        selectedObject.transform.rotation *= Quaternion.Euler(0, 0, 15);
     }
     
     private void RotateObjectRight()
     {
         //Pipe.Rotate(Vector3.right * rotationSpeed);
-        selectedObject.transform.rotation *= Quaternion.Euler(-15, 0, 0);
+        selectedObject.transform.rotation *= Quaternion.Euler(0, 0, -15);
     }
 }
